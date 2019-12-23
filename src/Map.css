@@ -1,0 +1,62 @@
+@media all and (min-width: 300px) {
+    .page2{
+        width: 100%;
+        top: 0%;
+        height: 100%;
+    }
+
+    .infoRes{
+        width: 100%;
+        color: rgb(100, 91, 91);
+        background:  linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9));
+    }
+
+    .infoDiv1{
+        font-size: 18px;
+    }
+
+    .infoDiv2{
+        font-size: 12px;
+    }
+
+    .vLine{
+        border-right: 1px solid rgb(100, 91, 91);
+        height: 16px;
+        width: 2px;
+    }
+
+    .icon{
+        width: 20px;
+    }
+
+    .btn-2Div{
+        width: 100%;
+        top:83%;
+        text-align: center;
+    }
+
+    .btn-2{
+        width: 150px;
+        padding: 3px;
+        font-size: 16px;
+        border-radius: 30px;
+    }
+}
+
+@media all and (min-width: 576px) {
+    .vLine{
+        border-right: 1px solid rgb(100, 91, 91);
+        height: 18px;
+        width: 2px;
+    }
+
+    .icon{
+        width: 22px;
+    }
+}
+
+@media all and (min-width: 768px) {
+    .btn-2Div{
+        top:84%;
+    }
+}

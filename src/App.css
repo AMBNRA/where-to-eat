@@ -1,22 +1,106 @@
-.App {
+html, body{
+  background:  linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.9)),
+  url("rest.jpg");
+  background-size:contain;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+@media all and (min-width: 300px) {
+  .container{
+    background:  linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.8));
+    text-align: center;
+    border: none;
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .centerDiv{
+    align-self: center;
+    font-weight: bold;
+  }
+  .page1{
+    width: 350px;
+  }
+  
+  img {
+    width: 150px;
+    margin-bottom: 15px;
+  }
+
+  .link{
+      color:white;
+  }
+
+  .link:hover {
+    color: white;
+    text-decoration: none;
+  }
+
+  .button{
+    border: none;
+    background-color: teal;
+    cursor: pointer;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+  }
+
+  button{
+      border: none;
+      background: none;
+      color: white;
+  }
+
+  .btn-1{
+    padding: 5px 85px;
+    font-size: 20px;
+  }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@media all and (min-width: 576px) {
+  .page1{
+    width: 350px;
+  }
+  
+  img {
+    width: 155px;
+    margin-bottom: 15px;
+  }
+
+  .btn-1{
+    padding: 5px 90px;
+    font-size: 22px;
+  }
 }
 
-.App-link {
-  color: #09d3ac;
+@media all and (min-width: 768px) {
+  .page1{
+    width: 50%;
+  }
+
+  img {
+    width: 170px;
+    margin-bottom: 15px;
+
+  }
+
+  .button{
+    border: none;
+    background-color: teal;
+    cursor: pointer;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn-1{
+    padding: 5px 100px;
+    font-size: 22px;
+  }
 }
