@@ -69,7 +69,7 @@ class MapContainer extends Component {
 
   fetchResData() {
     let url;
-    url = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=' + this.state.latitude + ',' + this.state.longitude + '&radius=1000&type=restaurant&key=AIzaSyCA5D-W9I3bx-qPLqoFhJycXdWgHS6T17E';
+    url = 'https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=' + this.state.latitude + ',' + this.state.longitude + '&radius=1000&type=restaurant&key=yourkey';
 
     fetch(url)
     .then(results => results.json())
